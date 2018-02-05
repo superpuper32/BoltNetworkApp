@@ -1,0 +1,32 @@
+app.controller('MainController', [$scope, function($scope) {
+  $scope.programs = [
+    { series: "Sherlock",
+    series_img: "https://www.dropbox.com/s/ni925f8y5474t98/sherlock.jpg?dl=0",
+    genre: "Crime drama",
+    season: 3,
+    episode: "The Empty Hearse",
+    description: "Two years after his reported Reichenbach Fall demise, Sherlock, who has been cleared of all fraud charges against him, returns with Mycroft's help to a London under threat of terrorist attack. John has moved on and has a girlfriend, Mary Morstan. Sherlock enlists Molly to assist him, but when John is kidnapped by unknown assailants and is rescued by Sherlock and Mary, John returns to help find the terrorists and an underground plot to blow up the Houses of Parliament during an all night sitting on Guy Fawkes Night.",
+    datetime: new Date(2014, 11, 31, 21, 00, 00, 00) },
+    { series: "Arrested Development",
+    series_img: "https://www.dropbox.com/s/xgdtb9xbh6yoh4g/arrested_development.jpg?dl=0",
+    genre: "Sitcom",
+    season: 2,
+    episode: "Righteous Brothers",
+    description: "The model home collapses. Tobias and Kitty head to Las Vegas together.",
+    datetime: new Date(2014, 11, 31, 23, 00, 00, 00) },
+    { series: "Brigada",
+    series_img: "https://www.dropbox.com/s/a3b6ni07cyjuu6r/brigada.jpg?dl=0",
+    genre: "Gangster Saga",
+    season: 15,
+    episode: "Pасстрел в яме",
+    description: "В центре сюжета стоит история четырёх друзей, объединившихся в преступную группировку, лидером которой стал Александр Белов («Саша Белый»).",
+    datetime: new Date(2012, 07, 15, 21, 00, 00, 00) },
+    { series: "Ulicy-razbitykh-fonarey-menty",
+    series_img: "https://www.dropbox.com/s/daz7t92n3gzc7nd/ulicy-razbitykh-fonarey-menty.jpg?dl=0",
+    genre: "Detective",
+    season: 16,
+    episode: "Inferno",
+    description: "The raid on the apartment. Bandits kidnapped the owner of 15 thousand dollars. Soon several similar crimes were committed in the city. All cases were united by one thing: on the day of the robbery, the victims bought large amounts of currency in exchange offices, while presenting a passport.",
+    datetime: new Date(1998, 11, 31, 23, 00, 00, 00) }
+  ];
+}]);
